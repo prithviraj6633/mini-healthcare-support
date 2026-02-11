@@ -25,7 +25,7 @@ This tool:
 - Displays summarized insight for faster review
 
 ## 🚀 Live Demo
-(Add your Vercel link here)
+[(Add your Vercel link here)](http://127.0.0.1:5500/index.html)
 
-## 📂 GitHub Repository
-(Add your GitHub link here)
+<img width="1920" height="1080" alt="Screenshot (203)" src="https://github.com/user-attachments/assets/cb1580fb-47aa-484b-9958-df9ed612b337" />
+
