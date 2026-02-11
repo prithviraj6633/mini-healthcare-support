@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Healthcare Support Portal</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="container">
+    <h1>Healthcare Support Portal</h1>
+    <p class="subtitle">NGO Patient Assistance & Volunteer Support</p>
+
+    <form id="supportForm">
+
+      <label for="name">Full Name</label>
+      <input type="text" id="name" required>
+
+      <label for="email">Email</label>
+      <input type="email" id="email" required>
+
+      <label for="phone">Phone</label>
+      <input type="text" id="phone" required>
+
+      <label for="supportType">Support Type</label>
+      <select id="supportType" required>
+        <option value="">Select</option>
+        <option value="Medical Help">Medical Help</option>
+        <option value="Mental Health Support">Mental Health Support</option>
+        <option value="Volunteer Registration">Volunteer Registration</option>
+      </select>
+
+      <label for="message">Describe Your Concern</label>
+      <textarea id="message" rows="4" required></textarea>
+
+      <button type="submit">Submit Request</button>
+
+    </form>
+
+    <div id="responseBox" class="hidden">
+      <h2>AI Generated Summary</h2>
+      <p id="summary"></p>
+    </div>
+
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
